@@ -17,9 +17,9 @@ const password = passwordField.value;
 // danger: do not verify email password on the client site
 // step-4: verify email and password to check valid or not 
 if(email === 'sontan@gmail.com' && password === 'secret'){
-    console.log('valid user')
+   window.location.href = 'bank.html'
 }
 else{
-    console.log('invalid user')
+    alert('invalid user')
 }
 });
